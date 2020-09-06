@@ -3,7 +3,7 @@
     $servername= "localhost";
     $username="root";
     $password="";
-    $dbname="iot";
+    $dbname="test";
 
     $con = mysqli_connect($servername,$username,$password,$dbname) or die ("could not connect database");
 
